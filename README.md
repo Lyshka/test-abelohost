@@ -31,14 +31,7 @@
 
 ## Запуск проекта
 
-### 1) Клонировать репозиторий
-
-```bash
-git clone <your-repo-url>
-cd test-abelohost
-```
-
-### 2) Запустить контейнеры
+### Запустить контейнеры
 
 ```bash
 docker compose up --build
@@ -141,7 +134,3 @@ docker compose down
 docker compose exec -T php composer install
 docker compose exec -T php composer seed
 ```
-
-## Лицензия
-
-Используйте и модифицируйте проект под свои задачи.
