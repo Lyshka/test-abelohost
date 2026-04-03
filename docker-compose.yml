@@ -8,6 +8,8 @@ services:
       - "8080:80"
     volumes:
       - ./:/var/www/html
+    environment:
+      ADMIN_PASSWORD: admin
     command: bash -lc "composer install --no-interaction && apache2-foreground"
     depends_on:
       - mysql
