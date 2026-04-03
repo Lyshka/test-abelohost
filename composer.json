@@ -1,0 +1,13 @@
+{
+  "name": "app/php-smarty",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "smarty/smarty": "^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
